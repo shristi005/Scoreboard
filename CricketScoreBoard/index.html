@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>India vs Australia</h1>
+            <p class="subhead">CRICKET SCOREBOARD</p>
+        </div>
+        <div class="main">
+            <div class="score">
+                <div class="India">
+
+                    <h1><img id="in-flg"src="https://flagcdn.com/40x30/in.png" srcset="https://flagcdn.com/80x60/in.png 2x,
+    https://flagcdn.com/120x90/in.png 3x" width="30" height="20" alt="India"> INDIA</h1>
+                    <span id="runIndia">
+                        0/0
+                    </span>
+                    <p id="oversIndia">Overs: 0</p>
+                    <div class="scoreIncreementer">
+                        <button id="add1India" onclick="add1India()">+1</button>
+                        <button id="add4India" onclick="add4India()">+4</button>
+                        <button id="add6India" onclick="add6India()">+6</button>
+                        <button id="wicketIndia" onclick="addWicketIndia()">+wicket</button>
+                        <button id="overIndia" onclick="addOversIndia()">+over</button>
+                    </div>
+                </div>
+                <div class="Australia">
+                    <h1><img id="au-flg" src="https://flagcdn.com/40x30/au.png" srcset="https://flagcdn.com/80x60/au.png 2x,
+    https://flagcdn.com/120x90/au.png 3x" width="30" height="20" alt="Australia"> AUSTRALIA</h1>
+                    <span id="runAustralia">
+                        0/0
+                    </span>
+                    <p id="oversAustralia">Overs: 0</p>
+                    <div class="scoreIncreementer">
+                        <button id="add1Australia" onclick="add1Australia()">+1</button>
+                        <button id="add4Australia" onclick="add4Australia()">+4</button>
+                        <button id="add6Australia" onclick="add6Australia()">+6</button>
+                        <button id="wicketAustralia" onclick="addWicketAustralia()">+wicket</button>
+                        <button id="overAustralia" onclick="addOversAustralia()">+overs</button>
+                    </div>
+                </div>
+            </div>
+            <button id="reset" onclick="Reset()" id="reset">Reset Match</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

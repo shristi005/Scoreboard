@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+}
+
+.container,.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    width:600px;
+    margin: 100px auto;
+    border-radius: 20px;
+    
+    
+}
+h1{
+    color:#E4E9D2;
+}
+
+.heading{
+    background:#053023;
+    width:600px;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.heading>h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.subhead{
+    margin:0px;
+     color: #C7EBE0;
+}
+
+.main{
+    background: #094531;
+    width:600px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.India,.Australia{
+     background:#053023;
+     padding:0px 21px;
+     border-radius: 12px;
+
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+
+}
+#runIndia,#runAustralia{
+    color: #FDC82E;
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+#oversIndia,#oversAustralia{
+    color: #C7EBE0;
+    font-size: 20px;
+}
+
+.India,.Australia{
+    text-align: center;
+    margin:20px 15px;
+}
+
+button{
+    width:60px;
+    padding:3px 6px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+    color:#FDFEFD;
+}
+
+#reset{
+margin-top:10px;
+}
+
+#add1India,#add1Australia{
+    background: #30A24E;
+    
+}
+
+#add4India,#add4Australia{
+    background: #1973C2;
+}
+#add6India,#add6Australia{
+    background: #F4A300;
+}
+
+#wicketIndia,#wicketAustralia{
+    background: #B92E27;
+}
+
+#overIndia,#overAustralia{
+    background: #555E6B;
+}
+
+#reset{
+    background: #1A5144;
+    height:30px;
+    width:130px;
+    font-size: 1rem;
+    padding: 5px 15px;
+  text-align: center;
+}
+#rest:hover{
+    background: #1A5144;
+    color: #FDFEFD;
+}
+
+
+
